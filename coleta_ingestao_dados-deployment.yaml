@@ -1,0 +1,41 @@
+###
+### A complete description of a Prefect Deployment for flow 'coleta-ingestao-dados'
+###
+name: pipeline_dev
+description: null
+version: c1a045466e98b758b6bebfab81effd3a
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags:
+- pipeline
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: coleta-ingestao-dados
+manifest_path: null
+storage: null
+path: C:\Users\aleci\Downloads\Files\Projeto Aplicado\Projeto
+entrypoint: pipeline_dados\pipeline.py:coleta_ingestao_dados
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-04-09T14:55:28.283950+00:00'

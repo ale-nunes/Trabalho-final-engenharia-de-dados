@@ -1,0 +1,9 @@
+--> prefect orin start
+
+--> prefect deployment build testes/hi_flow.py:hi -n teste_dev -t teste
+
+=================================================================================================================
+
+--> prefect deployment build pipeline_dados/pipeline.py:coleta_ingestao_dados -n pipeline_dev -t pipeline
+
+--> prefect deployment apply coleta_ingestao_dados-deployment.yaml

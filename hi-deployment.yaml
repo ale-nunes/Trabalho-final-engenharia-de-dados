@@ -1,0 +1,41 @@
+###
+### A complete description of a Prefect Deployment for flow 'hi'
+###
+name: teste_dev
+description: null
+version: 6ba1e52d77aaa1f052c376514a0bab37
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags:
+- teste
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: hi
+manifest_path: null
+storage: null
+path: C:\Users\aleci\Downloads\Files\Projeto Aplicado\Projeto
+entrypoint: testes\hi_flow.py:hi
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-04-09T14:34:55.897030+00:00'
